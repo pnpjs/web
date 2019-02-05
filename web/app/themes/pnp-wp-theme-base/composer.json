@@ -1,0 +1,16 @@
+{
+    "name": "pnp-wb-theme-base",
+    "description": "",
+    "keywords": [],
+    "license": "private",
+    "type": "wordpress-theme",
+    "require": {
+      "tgmpa/tgm-plugin-activation": "~2.6.1",
+      "twig/twig": "1.18.0",
+      "php": ">=7.2",
+      "tonik/gin": "^2.0.0"
+    },
+    "require-dev": {
+      "tonik/cli": "^2.0.0"
+    }
+}
