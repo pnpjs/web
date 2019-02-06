@@ -8,8 +8,8 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/sage",
-  "devUrl": "http://example.test",
+  "publicPath": "/app/themes/theme",
+  "devUrl": "http://test.me",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [

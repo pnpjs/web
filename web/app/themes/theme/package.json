@@ -8,15 +8,6 @@
     "type": "git",
     "url": "git://github.com/roots/sage.git"
   },
-  "bugs": {
-    "url": "https://github.com/roots/sage/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "browserslist": [
     "last 2 versions",
     "android 4",

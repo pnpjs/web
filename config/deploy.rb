@@ -1,5 +1,5 @@
-set :application, 'bedrock'
-set :repo_url, 'http://gogs.printlake.com/wenbin/wordpress-bedrock.git'
+set :application, 'web'
+set :repo_url, 'git@github.com:pnpjs/web.git'
 # Branch options
 # Prompts for the branch name (defaults to current branch)
 #ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
