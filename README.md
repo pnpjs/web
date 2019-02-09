@@ -19,11 +19,3 @@
 * Rollback: `cap production deploy:rollback`
 
 Composer support is built-in so when you run a deploy, `composer install` is automatically run. Capistrano has a great [deploy flow](http://www.capistranorb.com/documentation/getting-started/flow/) that you can hook into and extend it.
-
-## Contributing
-
-Contributions are welcome from everyone. We have [contributing guidelines](CONTRIBUTING.md) to help you get started.
-
-## Support
-
-Use the [Roots Discourse](https://discourse.roots.io/) forum to ask questions and get support.
