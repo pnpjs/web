@@ -12,7 +12,7 @@ set :branch, :master
 # set :format_options, truncate: 80
 set :format_options, color: false, truncate: 80
 
-set :deploy_to, -> { "/root/#{fetch(:application)}" }
+set :deploy_to, -> { "/usr/share/#{fetch(:application)}" }
 
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :info

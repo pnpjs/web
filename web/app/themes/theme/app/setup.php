@@ -44,7 +44,8 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage'),
+        'secondly_navigation' => __('Secondly Navigation', 'sage'),
     ]);
 
     /**
@@ -71,6 +72,10 @@ add_action('after_setup_theme', function () {
      */
     add_editor_style(asset_path('styles/main.css'));
 }, 20);
+
+add_action('after_setup_theme', function () {
+    load_theme_textdomain('sage', get_template_directory() . '/lang');
+});
 
 /**
  * Register sidebars

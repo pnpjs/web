@@ -2,22 +2,17 @@
   "name": "roots/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
       "name": "Scott Walkinshaw",
       "email": "scott.walkinshaw@gmail.com",
       "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -40,9 +35,14 @@
     "roots/wordpress": "5.0.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
+    "roots/wp-stage-switcher": "2.0.0",
+    "wpackagist-plugin/composer": "^0.1.2",
     "wpackagist-plugin/simple-page-ordering": "^2.3",
     "wpackagist-plugin/woocommerce": "^3.5",
-    "wpackagist-plugin/safe-redirect-manager": "^1.9"
+    "wpackagist-plugin/safe-redirect-manager":"1.9.2",
+    "soberwp/intervention": "^1.2",
+    "wpackagist-plugin/wp-editormd": "^10.0",
+    "roots/multisite-url-fixer": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

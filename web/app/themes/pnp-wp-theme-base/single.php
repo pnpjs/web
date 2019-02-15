@@ -6,7 +6,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'single' ); ?>
 				<?php pnp_content_nav( 'nav-below' ); ?>
-				<?php dw_minion_related_post($post->ID); ?>
+				<?php // dw_minion_related_post($post->ID); ?>
 				<?php if ( comments_open() ) comments_template(); ?>
 
 				<?php get_template_part( 'content', get_post_format() ); ?>

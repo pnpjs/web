@@ -15,7 +15,7 @@ if ( post_password_required() )
 		<?php endif; ?>
 
 		<ol class="comment-list">
-			<?php wp_list_comments( array( 'callback' => 'dw_minion_comment' ) ); ?>
+			<?php // wp_list_comments( array( 'callback' => 'dw_minion_comment' ) ); ?>
 		</ol>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>

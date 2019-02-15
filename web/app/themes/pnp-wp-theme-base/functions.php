@@ -3,24 +3,31 @@
 // 自动加载
 require 'vendor/autoload.php';
 
-// foreground
-require 'dashboard/foreground/common/widget.php';
-require 'dashboard/foreground/common/script.php';
-require 'dashboard/foreground/common/font.php';
+// // library
+require 'library/core/index.php';
+require 'library/core/customizer.php';
+require 'library/core/template-tags.php';
+// // require 'library/dashboard/index.php';
+// require 'library/dashboard/foreground/common/widget.php';
+// require 'library/dashboard/foreground/common/script.php';
+// require 'library/dashboard/foreground/common/font.php';
+// require 'library/dashboard/foreground/common/infinte-scroll.php';
 
-require 'dashboard/foreground/sidebar/custom-post/work.php';
-require 'dashboard/foreground/sidebar/media/upload-mimes.php';
+// require 'library/dashboard/foreground/sidebar/custom-post/work.php';
+// require 'library/dashboard/foreground/sidebar/media/upload-mimes.php';
 
-// background
-require 'dashboard/background/common/maintenance-mode.php';
-require 'dashboard/background/common/non-strict-login.php';
-require 'dashboard/background/common/allow-email-login.php';
-require 'dashboard/background/common/mce-css.php';
-require 'dashboard/background/common/non-admin-users.php';
+// // background
+// require 'library/dashboard/background/common/maintenance-mode.php';
+// require 'library/dashboard/background/common/non-strict-login.php';
+// require 'library/dashboard/background/common/allow-email-login.php';
+// require 'library/dashboard/background/common/mce-css.php';
+// require 'library/dashboard/background/common/non-admin-users.php';
 
-require 'dashboard/background/adminbar/index.php';
+// require 'library/dashboard/background/adminbar/index.php';
 
-require 'dashboard/background/sidebar/interface/install-plugins.php';
+// require 'library/dashboard/background/sidebar/interface/install-plugins.php';
+
+
 
 
 if (!isset($content_width)) {
@@ -86,7 +93,7 @@ function custom_image_sizes($sizes) {
 }
 add_filter('image_size_names_choose', 'custom_image_sizes');
 
-require get_template_directory() . '/inc/template-tags.php';
+// require get_template_directory() . '/inc/template-tags.php';
 
 // require get_template_directory() . '/inc/extras.php';
 
@@ -140,10 +147,6 @@ function dw_minion_top_sidebar() {
     ?><div class="top-sidebar"><?php dynamic_sidebar( 'top-sidebar' ); ?></div><?php
 }
 add_action( 'dw_minion_top_sidebar', 'dw_minion_top_sidebar' );
-
-
-
-
 
 
 
